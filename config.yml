@@ -1,0 +1,11 @@
+message:
+  # If true, a cancel message will be sent to the player.
+  # If false, no message will be sent.
+  canceled: false
+  
+  # (Only if: canceled = false) Message sent on cancellation.
+  cancel-message: "&cYou can not !"
+  
+exception:
+  # "true" so that we can change a spawner with an egg
+  on-spawner: false
